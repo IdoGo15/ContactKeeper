@@ -35,8 +35,8 @@ const ContactForm = () => {
       <h5>Contact Type</h5>
       <input type="radio" name="type" value="personal" checked={type === 'personal'}
         onChange={onChange}/> Personal{' '}
-      <input type="radio" name="type" value="profesional" checked={type === 'profesional'}
-         onChange={onChange}/> Profesional
+      <input type="radio" name="type" value="professional" checked={type === 'professional'}
+         onChange={onChange}/> Professional
       <div>
         <input type="submit" value="Add Contact" className="btn btn-primary btn-block"/>
       </div>
